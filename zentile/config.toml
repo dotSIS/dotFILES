@@ -7,7 +7,7 @@ remove_decorations = false
 # ignore = ['ulauncher', 'gnome-screenshot']
 
 # Adds spacing between windows
-gap = 10
+gap = 5
 
 # How much to increment the master area size.
 proportion = 0.2

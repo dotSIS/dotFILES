@@ -361,6 +361,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-wal -n -q -i ~/Pictures/wallpapers/jpg16.jpg
+wal -n -q -i ~/Pictures/wallpapers/jpg19.jpg
 #neofetch #| lolcat
-fm6000 -l 20 -zhy7ne -c cyan -o "Debian" #| lolcat
+#fm6000 -l 20 -zhy7ne -c cyan -os "Debian" -n -de "zentile" #| lolcat
+#colorscript random
+pokemon-colorscripts --no-title -r
