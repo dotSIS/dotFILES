@@ -258,7 +258,7 @@ if [ -f /etc/zsh_command_not_found ]; then
 fi
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/snap/bin
-export PATH="$PATH:/home/zhy7ne/Android/flutter/bin"
+export PATH=$HOME/.local/bin:$PATH
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -361,7 +361,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-wal -n -q -i ~/Pictures/wallpapers/jpg19.jpg
+wal -n -q -i ~/Projects/dotFILES/wallpapers/jpg18.jpg
 #neofetch #| lolcat
 #fm6000 -l 20 -zhy7ne -c cyan -os "Debian" -n -de "zentile" #| lolcat
 #colorscript random
