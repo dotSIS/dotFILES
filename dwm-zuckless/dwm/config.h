@@ -1,5 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
+#include <X11/XF86keysym.h>
+
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
@@ -23,9 +25,9 @@ static char *colors[][3] = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "" };
-/* static const char *tags[] = { "ter", "web", "des", "???" }; */
-/* static const char *tags[] = { "1", "2", "3", "4" }; */
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+/* static const char *tags[] = { "ter", "web", "des", "???", "pdf", "cin", "rec", "ser", "hom" }; */
+/* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -33,7 +35,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class                instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
-	{ "obs",                NULL,     NULL,           1 << 3,    1,          0,           0,        -1 },
+	{ "obs",                NULL,     NULL,           1 << 6,    1,          0,           0,        -1 },
 	{ "mousepad",   		NULL,     NULL,           1 << 2,    1,          0,           0,        -1 },
 	{ "thunar",   			NULL,     NULL,           1 << 2,    1,          0,           0,        -1 },
 	{ "firefox",   			NULL,     NULL,           1 << 1,    1,          0,           0,        -1 },
@@ -70,6 +72,8 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont};
 static const char *stcmd[]  = { "st", NULL };
 static const char *kittycmd[]  = { "kitty", NULL };
+static const char *volup[] = { "/usr/bin/amixer", "set", "Master", "5%+", NULL };
+static const char *voldown[] = { "/usr/bin/amixer", "set", "Master", "5%-", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -102,11 +106,18 @@ static Key keys[] = {
 	{ MODKEY,						XK_equal,  setgaps,	       {.i = +1 } },
 	{ MODKEY|ShiftMask,				XK_equal,  setgaps,	       {.i =  0 } },
 	{ MODKEY,                       XK_F5,     xrdb,           {.v = NULL } },
-	{ MODKEY,						XK_F4,	   quit,           {0} },
+	{ MODKEY|ShiftMask,				XK_F4,	   quit,           {0} },
+	{ MODKEY,						XK_F3,	   spawn,		   {.v = volup } },
+	{ MODKEY,						XK_F2,	   spawn,		   {.v = voldown } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
 	TAGKEYS(                        XK_4,                      3)
+	TAGKEYS(                        XK_5,                      4)
+	TAGKEYS(                        XK_6,                      5)
+	TAGKEYS(                        XK_7,                      6)
+	TAGKEYS(                        XK_8,                      7)
+	TAGKEYS(                        XK_9,                      8)
 };
 
 /* button definitions */
