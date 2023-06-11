@@ -252,8 +252,8 @@ alias cddf='cd /home/zhy7ne/Projects/dotFILES'
 # git aliases
 alias dps='/home/zhy7ne/./.dot.sh df ps'
 alias dpl='/home/zhy7ne/./.dot.sh df pl'
-alias xps='/home/zhy7ne/./.dot.sh xs ps'
-alias xpl='/home/zhy7ne/./.dot.sh xs pl'
+alias xps='/home/zhy7ne/./.dot.sh xt ps'
+alias xpl='/home/zhy7ne/./.dot.sh xt pl'
 alias pps='/home/zhy7ne/./.psp.sh l ps'
 alias ppl='/home/zhy7ne/./.psp.sh l pl'
 
