@@ -246,7 +246,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # cd aliases
-alias cdwm='cd /home/zhy7ne/Configs/dwm-zuckless'
+alias cdwm='cd /home/zhy7ne/Configs/dwm-xuckless'
 alias cdot='cd /home/zhy7ne/Projects/dotFILES'
 
 # git aliases
