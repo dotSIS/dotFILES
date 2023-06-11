@@ -249,6 +249,12 @@ alias l='ls -CF'
 alias cdwm='cd /home/zhy7ne/Configs/dwm-zuckless'
 alias cdot='cd /home/zhy7ne/Projects/dotFILES'
 
+# git aliases
+alias dps='/home/zhy7ne/./.dot.sh l ps'
+alias dpl='/home/zhy7ne/./.dot.sh l pl'
+alias pps='/home/zhy7ne/./.psp.sh l ps'
+alias ppl='/home/zhy7ne/./.psp.sh l pl'
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -365,7 +371,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-wal -n -q -i /home/zhy7ne/.zuckless-bg.jpg
+wal -n -q -i /home/zhy7ne/.xuckless-bg.jpg
 #neofetch #| lolcat
 #fm6000 -l 20 -zhy7ne -c cyan -os "Debian" -n -de "zentile" #| lolcat
 #colorscript random
