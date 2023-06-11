@@ -246,12 +246,14 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # cd aliases
-alias cdwm='cd /home/zhy7ne/Configs/dwm-xuckless'
-alias cdot='cd /home/zhy7ne/Projects/dotFILES'
+alias cdxt='cd /home/zhy7ne/Configs/xuckless-tools'
+alias cddf='cd /home/zhy7ne/Projects/dotFILES'
 
 # git aliases
-alias dps='/home/zhy7ne/./.dot.sh l ps'
-alias dpl='/home/zhy7ne/./.dot.sh l pl'
+alias dps='/home/zhy7ne/./.dot.sh df ps'
+alias dpl='/home/zhy7ne/./.dot.sh df pl'
+alias xps='/home/zhy7ne/./.dot.sh xs ps'
+alias xpl='/home/zhy7ne/./.dot.sh xs pl'
 alias pps='/home/zhy7ne/./.psp.sh l ps'
 alias ppl='/home/zhy7ne/./.psp.sh l pl'
 
