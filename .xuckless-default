@@ -6,7 +6,7 @@
 # copy default wallpaper to home
 cp /usr/share/wallpapers/bb.jpg /home/zhy7ne/.xuckless-bg.jpg
 
-# put home wallpaper on a bariable
+# put home wallpaper on a variable
 bb=$(find /home/zhy7ne/.xuckless-bg.jpg)
 
 # set fetched wallpaper
