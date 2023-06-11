@@ -8,11 +8,11 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.vimrc ./vim/
 		#cp /home/zhy7ne/.config/zentile/config.toml ./zentile/
 		cp /home/zhy7ne/.zshrc ./zsh/
-		cp /home/zhy7ne/.xuckless ./
-		cp /home/zhy7ne/.xuckless-default ./
-		cp /home/zhy7ne/.dwm/autostart ./
-		cp /home/zhy7ne/.dot.sh ./
-		cp /home/zhy7ne/.psp.sh ./
+		cp /home/zhy7ne/.xuckless ./scripts/
+		cp /home/zhy7ne/.xuckless-default ./scripts/
+		cp /home/zhy7ne/.dwm/autostart ./scripts/
+		cp /home/zhy7ne/.dot.sh ./scripts/
+		cp /home/zhy7ne/.psp.sh ./scripts/
 		git add .
 		git commit -m "dotfiles commit"
 		git push
@@ -23,11 +23,11 @@ if [ $1 = "df" ]; then
 		cp ./vim/.vimrc /home/zhy7ne/
 		#cp ./zentile/config.toml /home/zhy7ne/.config/zentile/
 		cp ./zsh/.zshrc /home/zhy7ne/
-		cp ./.xuckless /home/zhy7ne/
-		cp ./.xuckless-default /home/zhy7ne/
-		cp ./autostart /home/zhy7ne/.dwm/
-		cp ./.dot.sh /home/zhy7ne/
-		cp ./.psp.sh /home/zhy7ne/
+		cp ./scripts/.xuckless /home/zhy7ne/
+		cp ./scripts/.xuckless-default /home/zhy7ne/
+		cp ./scripts/autostart /home/zhy7ne/.dwm/
+		cp ./scripts/.dot.sh /home/zhy7ne/
+		cp ./scripts/.psp.sh /home/zhy7ne/
 	else
 		echo "Error #1 occured!"
 	fi
