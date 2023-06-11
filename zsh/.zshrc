@@ -255,6 +255,10 @@ alias dpl='/home/zhy7ne/./.dot.sh l pl'
 alias pps='/home/zhy7ne/./.psp.sh l ps'
 alias ppl='/home/zhy7ne/./.psp.sh l pl'
 
+# xuckless aliases
+alias xls='/home/zhy7ne/./.xuckless'
+alias xld='/home/zhy7ne/./.xuckless-default'
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
