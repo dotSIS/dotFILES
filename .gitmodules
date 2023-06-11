@@ -1,0 +1,3 @@
+[submodule "xuckless-tools"]
+	path = xuckless-tools
+	url = https://github.com/dotSIS/xuckless-tools.git
