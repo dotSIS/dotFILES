@@ -18,6 +18,10 @@ slstatus &
 # apply colorscheme to bar
 xdotool key super+F5 &
 
+# disable screendim
+xset dpms 0 0 0
+xset s off
+
 #cpu(){
 #    read cpu a b c previdle rest < /proc/stat
 #    prevtotal = $((a+b+c+previdle))
