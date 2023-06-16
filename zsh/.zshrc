@@ -256,6 +256,8 @@ alias xps='/home/zhy7ne/./.dot.sh xt ps'
 alias xpl='/home/zhy7ne/./.dot.sh xt pl'
 alias pps='/home/zhy7ne/./.psp.sh l ps'
 alias ppl='/home/zhy7ne/./.psp.sh l pl'
+alias tps='/home/zhy7ne/./.ter.sh l ps'
+alias tpl='/home/zhy7ne/./.ter.sh l pl'
 
 # xuckless aliases
 alias xls='/home/zhy7ne/./.xuckless'
