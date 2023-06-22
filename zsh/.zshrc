@@ -278,6 +278,14 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/snap/bin
 export PATH=$HOME/.local/bin:$PATH
 
+# pnpm
+export PNPM_HOME="/home/zhy7ne/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -384,11 +392,3 @@ wal -n -q -i /home/zhy7ne/.xuckless-bg.jpg
 #fm6000 -l 20 -zhy7ne -c cyan -os "Debian" -n -de "zentile" #| lolcat
 #colorscript random
 pokemon-colorscripts --no-title -r
-
-# pnpm
-export PNPM_HOME="/home/zhy7ne/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
