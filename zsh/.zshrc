@@ -384,3 +384,11 @@ wal -n -q -i /home/zhy7ne/.xuckless-bg.jpg
 #fm6000 -l 20 -zhy7ne -c cyan -os "Debian" -n -de "zentile" #| lolcat
 #colorscript random
 pokemon-colorscripts --no-title -r
+
+# pnpm
+export PNPM_HOME="/home/zhy7ne/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
