@@ -264,7 +264,7 @@ alias xls='/home/zhy7ne/./.xuckless'
 alias xld='/home/zhy7ne/./.xuckless-default'
 
 # program aliases
-alias nv='/home/zhy7ne/./.nvim.appimage'
+alias nv='/home/zhy7ne/./.nvim'
 alias vi='vim'
 
 # enable auto-suggestions based on the history

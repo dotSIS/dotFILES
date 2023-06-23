@@ -14,7 +14,7 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.dwm/autostart ./scripts/
 		cp /home/zhy7ne/.dot.sh ./scripts/
 		cp /home/zhy7ne/.psp.sh ./scripts/
-    cp /home/zhy7ne/.nvim.appimage ./scripts/
+    cp /home/zhy7ne/.nvim ./scripts/
 		git add .
 		git commit -m "dotfiles commit"
 		git push
@@ -31,7 +31,7 @@ if [ $1 = "df" ]; then
 		cp ./scripts/autostart /home/zhy7ne/.dwm/
 		cp ./scripts/.dot.sh /home/zhy7ne/
 		cp ./scripts/.psp.sh /home/zhy7ne/
-    cp ./scripts/.nvim.appimage /home/zhy7ne/
+    cp ./scripts/.nvim /home/zhy7ne/.nvim-save
 	else
 		echo "Error #1 occured!"
 	fi
