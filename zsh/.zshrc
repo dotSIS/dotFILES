@@ -263,6 +263,10 @@ alias tpl='/home/zhy7ne/./.ter.sh l pl'
 alias xls='/home/zhy7ne/./.xuckless'
 alias xld='/home/zhy7ne/./.xuckless-default'
 
+# program aliases
+alias nv='/home/zhy7ne/./.nvim.appimage'
+alias vi='vim'
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
