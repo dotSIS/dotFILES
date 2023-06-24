@@ -5,7 +5,7 @@ if [ $1 = "df" ]; then
 	if [ $2 = "ps" ]; then
 		cp /home/zhy7ne/.config/kitty/kitty.conf ./kitty/
 		cp /home/zhy7ne/.config/rofi/config.rasi ./rofi/
-    cp -r /home/zhy7ne/.config/nvim/* ./nvchad/
+        cp -r /home/zhy7ne/.config/nvim/* ./nvchad/
 		cp /home/zhy7ne/.vimrc ./vim/
 		#cp /home/zhy7ne/.config/zentile/config.toml ./zentile/
 		cp /home/zhy7ne/.zshrc ./zsh/
@@ -14,7 +14,8 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.dwm/autostart ./scripts/
 		cp /home/zhy7ne/.dot.sh ./scripts/
 		cp /home/zhy7ne/.psp.sh ./scripts/
-    cp /home/zhy7ne/.nvim ./scripts/
+        cp /home/zhy7ne/.autocommit ./scripts/
+        cp /home/zhy7ne/.nvim ./scripts/
 		git add .
 		git commit -m "dotfiles commit"
 		git push
@@ -22,7 +23,7 @@ if [ $1 = "df" ]; then
 		git pull
 		cp ./kitty/kitty.conf /home/zhy7ne/.config/kitty/
 		cp ./rofi/config.rasi /home/zhy7ne/.config/rofi/
-    cp -r ./nvchad/* /home/zhy7ne/.config/nvim/
+        cp -r ./nvchad/* /home/zhy7ne/.config/nvim/
 		cp ./vim/.vimrc /home/zhy7ne/
 		#cp ./zentile/config.toml /home/zhy7ne/.config/zentile/
 		cp ./zsh/.zshrc /home/zhy7ne/
@@ -31,7 +32,8 @@ if [ $1 = "df" ]; then
 		cp ./scripts/autostart /home/zhy7ne/.dwm/
 		cp ./scripts/.dot.sh /home/zhy7ne/
 		cp ./scripts/.psp.sh /home/zhy7ne/
-    cp ./scripts/.nvim /home/zhy7ne/.nvim-save
+        cp ./scripts/.autocommit /home/zhy7ne/
+        cp ./scripts/.nvim /home/zhy7ne/.nvim-save
 	else
 		echo "Error #1 occured!"
 	fi
