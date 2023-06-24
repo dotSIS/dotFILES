@@ -250,6 +250,8 @@ alias cdxt='cd /home/zhy7ne/Configs/xuckless-tools'
 alias cddf='cd /home/zhy7ne/Projects/dotFILES'
 
 # git aliases
+alias gpl='git pull'
+alias gps='git push'
 alias dps='/home/zhy7ne/./.dot.sh df ps'
 alias dpl='/home/zhy7ne/./.dot.sh df pl'
 alias xps='/home/zhy7ne/./.dot.sh xt ps'
