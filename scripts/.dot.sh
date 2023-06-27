@@ -3,6 +3,7 @@
 if [ $1 = "df" ]; then
 	cd /home/zhy7ne/Projects/dotFILES
 	if [ $2 = "ps" ]; then
+        cp /home/zhy7ne/.config/picom/picom.conf ./picom/
 		cp /home/zhy7ne/.config/kitty/kitty.conf ./kitty/
 		cp /home/zhy7ne/.config/rofi/config.rasi ./rofi/
         cp -r /home/zhy7ne/.config/nvim/* ./nvchad/
@@ -21,6 +22,7 @@ if [ $1 = "df" ]; then
 		git push
 	elif [ $2 = "pl" ]; then
 		git pull
+        cp ./picom/picom.conf /home/zhy7ne/.config/picom/
 		cp ./kitty/kitty.conf /home/zhy7ne/.config/kitty/
 		cp ./rofi/config.rasi /home/zhy7ne/.config/rofi/
         cp -r ./nvchad/* /home/zhy7ne/.config/nvim/
