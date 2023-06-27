@@ -1,6 +1,6 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "176e85eeb63f1a5970d6b88f1725039d85ca0055" },
-  "LuaSnip": { "branch": "master", "commit": "3d2ad0c0fa25e4e272ade48a62a185ebd0fe26c1" },
+  "LuaSnip": { "branch": "master", "commit": "c7984d1cca3d8615e4daefc196597872a0b8d590" },
   "base46": { "branch": "v2.0", "commit": "bad87b034430b0241d03868c3802c2f1a4e0b4be" },
   "better-escape.nvim": { "branch": "master", "commit": "7031dc734add47bb71c010e0551829fa5799375f" },
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
@@ -19,12 +19,12 @@
   "nvim-cmp": { "branch": "main", "commit": "e1f1b40790a8cb7e64091fb12cc5ffe350363aa0" },
   "nvim-colorizer.lua": { "branch": "master", "commit": "dde3084106a70b9a79d48f426f6d6fec6fd203f7" },
   "nvim-lspconfig": { "branch": "master", "commit": "b6b34b9acf84949f0ac1c00747765e62b81fb38d" },
-  "nvim-tree.lua": { "branch": "master", "commit": "c3c6544ee00333b0f1d6a13735d0dd302dba4f70" },
-  "nvim-treesitter": { "branch": "master", "commit": "fdaf9f3f98014a058401ea03603164492f243d31" },
-  "nvim-web-devicons": { "branch": "master", "commit": "14b3a5ba63b82b60cde98d0a40319d80f25e8301" },
+  "nvim-tree.lua": { "branch": "master", "commit": "3cc698b35b0a67792c61e1726830bb9ecfc4c9f4" },
+  "nvim-treesitter": { "branch": "master", "commit": "b75f79bc5f68b552743d2136b80fe545871d5501" },
+  "nvim-web-devicons": { "branch": "master", "commit": "9ab9b0b894b2388a9dbcdee5f00ce72e25d85bf9" },
   "nvterm": { "branch": "main", "commit": "5ae78fb332e92447121d2af58a6313189a7799fb" },
   "plenary.nvim": { "branch": "master", "commit": "36aaceb6e93addd20b1b18f94d86aecc552f30c4" },
-  "telescope.nvim": { "branch": "master", "commit": "ffe35cb433192fcb5080b557c1aef14d37092035" },
+  "telescope.nvim": { "branch": "master", "commit": "6074847b6ee4b725747c8fc540d9b6b128ac8a12" },
   "ui": { "branch": "v2.0", "commit": "53b0d0b0e2a30e730865110eb2128dcfee7b87f6" },
   "which-key.nvim": { "branch": "main", "commit": "d871f2b664afd5aed3dc1d1573bef2fb24ce0484" }
 }
