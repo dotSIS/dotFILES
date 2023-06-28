@@ -11,6 +11,6 @@ do
     git -C $project_dir commit -m "auto commit - $ts"
 done
 
-if [ $ = "p" ]; then
+if [ $1 = "p" ]; then
     git -C $project_dir push
  fi
