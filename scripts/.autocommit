@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-x=$(shuf -i 0-7 -n 1)
+x=$(shuf -i 9-11 -n 1)
 project_dir="/home/zhy7ne/Projects/dotFILES/scripts"
 
 if [ $x = 0 ]; then
@@ -13,5 +13,6 @@ do
     echo "$ts" > $project_dir/.auto.txt
     git -C $project_dir add .
     git -C $project_dir commit -m "auto commit - $ts"
-    git -C $project_dir push
+    sleep 2
 done
+git -C $project_dir push
