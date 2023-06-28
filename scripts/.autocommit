@@ -9,7 +9,8 @@ do
     echo "$ts" > $project_dir/.auto.txt
     git -C $project_dir add .
     git -C $project_dir commit -m "auto commit - $ts"
-    if [ $ = "p" ]; then
-        git -C $project_dir push
-    fi
 done
+
+if [ $ = "p" ]; then
+    git -C $project_dir push
+ fi
