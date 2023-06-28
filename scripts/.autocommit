@@ -1,7 +1,11 @@
 #!/bin/zsh
 
-x=$(shuf -i 9-11 -n 1)
+x=$(shuf -i 0-7 -n 1)
 project_dir="/home/zhy7ne/Projects/dotFILES/scripts"
+
+if [ $x = 0 ]; then
+    exit
+fi
 
 for i in $(seq 1 $x);
 do
@@ -15,4 +19,4 @@ if [ $1 = "p" ]; then
     git -C $project_dir push
 else
     exit
- fi
+fi
