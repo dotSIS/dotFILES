@@ -395,6 +395,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 wal -n -q -i /home/zhy7ne/.xuckless-bg.jpg
 #neofetch #| lolcat
-#fm6000 -l 20 -zhy7ne -c cyan -os "Debian" -n -de "zentile" #| lolcat
+#fm6000 -l 20 -zhy7ne -c cyan -os "Debian Z" #| lolcat
 #colorscript random
 pokemon-colorscripts --no-title -r
