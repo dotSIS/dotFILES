@@ -22,33 +22,5 @@ xdotool key super+F5 &
 xset dpms 0 0 0
 xset s off
 
-#cpu(){
-#    read cpu a b c previdle rest < /proc/stat
-#    prevtotal = $((a+b+c+previdle))
-#    sleep 0.5
-#    read cpu a b c idle rest < /proc/stat
-#    total = $((a+b+c+idle))
-#    cpu = $((100*( (total-prevtotal) - (idle-previdle) ) / (total-prevtotal) ))
-#    if [ $cpu -gt 9 ];then
-#        echo " $cpu% cpu"
-#    elif [ $cpu -gt 99 ];then
-#        echo "$cpu% cpu"
-#    else
-#        echo "  $cpu% cpu"
-#    fi
-#}
-
-#dt(){
-#    dt = "$(date "+ %A, %B %d - %H:%M")"
-#    echo "$dt"
-#}
-
-#while true; do
-#    xsetroot -name "| $(cpu) | $(dt)"
-#    sleep 1s
-#done &
-
-#xsetroot -name " |zhy7ne"
-
 # run dwm
 dwm 
