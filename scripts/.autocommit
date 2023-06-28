@@ -13,4 +13,6 @@ done
 
 if [ $1 = "p" ]; then
     git -C $project_dir push
+else
+    exit
  fi
