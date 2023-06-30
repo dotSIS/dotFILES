@@ -110,7 +110,7 @@ dotSIS keybinds:
 	SHFT+u........... upper case selected
 
 *COMMAND*
-	ESC.............. exit command mode
+	ESC................. exit command mode
 	;/:w................ write changes
 	;/:q................ quit vim/nvim
 	;/:wq............... write changes and quit vim/mvim
