@@ -275,6 +275,7 @@ alias vi='vim'
 
 # tmuxifier aliases
 alias tls='tmux ls'
+alias tat='tmux attach'
 alias tide='tmuxifier load-session IDE'
 alias tdts='tmuxifier load-session dotSIS'
 alias tdtf='tmuxifier load-session dotFILES'
