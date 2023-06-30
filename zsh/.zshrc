@@ -240,6 +240,9 @@ if [ -x /usr/bin/dircolors ]; then
     zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 fi
 
+# shortcut aliases
+alias x='exit'
+
 # ls aliases
 alias ll='ls -l'
 alias la='ls -A'
@@ -282,8 +285,11 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/snap/bin
 export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH
+
+# temuxifier
+eval "$(tmuxifier init -)"
 
 # pnpm
 export PNPM_HOME="/home/zhy7ne/.local/share/pnpm"
