@@ -7,7 +7,7 @@ local plugins = {
 
   {
     "christoomey/vim-tmux-navigator",
-    lazy="false",
+    lazy = false,
   },
 
   -- Override plugin definition options
@@ -18,6 +18,10 @@ local plugins = {
       -- format & linting
       {
         "jose-elias-alvarez/null-ls.nvim",
+        ft = {"python"},
+        -- opts = function()
+        --     return require "custom.configs.null-ls"
+        -- end,
         config = function()
           require "custom.configs.null-ls"
         end,
@@ -32,7 +36,15 @@ local plugins = {
   -- override plugin configs
   {
     "williamboman/mason.nvim",
-    opts = overrides.mason
+    -- opts = overrides.mason
+    opts = {
+        ensure_installed = {
+            "mypy",
+            "ruff",
+            "pyright",
+        },
+        overrides.mason
+    },
   },
 
   {
