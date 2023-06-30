@@ -29,5 +29,5 @@ Click the links for the instructions on how to install each of the tools on your
     <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-script.gif">
 - ### Tiling window manager
     <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-dwm.gif">
-- ### NvChad IDE
+- ### Tmux + NvChad IDE
     <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-tmux+nvchad.gif">
