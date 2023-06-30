@@ -5,6 +5,7 @@
 </div>
 
 # My Debian distribution dotfiles.
+<img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/dotFILES.jpg">
 
 ## Machine specs:
 - Device:   Lenovo X250
@@ -16,6 +17,7 @@
 ## Tools used:
 Click the links for the instructions on how to install each of the tools on your machine.
 - Terminal:     [`kitty`](https://github.com/kovidgoyal/kitty)
+- Multiplexer:  [`tmux`](https://github.com/tmux/tmux)
 - IDE:          [`nvchad (neovim)`](https://github.com/NvChad/NvChad)
 - Launcher:     [`rofi`](https://github.com/davatorium/rofi)
 - WM:           [`xuckless-tools`](https://github.com/dotSIS/xuckless-tools)
@@ -28,4 +30,4 @@ Click the links for the instructions on how to install each of the tools on your
 - ### Tiling window manager
     <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-dwm.gif">
 - ### NvChad IDE
-    <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-nvchad.gif">
+    <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-tmux+nvchad.gif">

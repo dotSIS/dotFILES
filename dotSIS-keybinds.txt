@@ -1,0 +1,115 @@
+dotSIS keybinds:
+
+[Tmux]
+-outside_commands
+	tmux............. launch
+	tmux new -s<new>. launch new session with session name
+	tmux attach...... launch and attach to last session
+	tmux attach -t<n> launch and attach to session name
+	tmux ls.......... list active sessions
+	
+-inside_actions
+	CTRL+space....... leader
+	leader+SHFT+i.... install plugins
+	leader+c......... new session
+	leader+SHFT+7.... kill session
+	leader+<#>....... switch to session #
+	leader+SHFT+[.... copy mode
+	leader+SHFT+5.... split pane horizon
+	leader+SHFT+'.... split pane vertical
+	leader+<h/j/k/l>. move cursor to another pane with direction
+	leader+<dir>..... move cursor to another pane with direction
+	leader+q<#>...... show and swtich to pane #
+	leader+z......... toogle pane to full/window
+	:new............. launch new session
+	leader+s......... show active sessions
+	leader+w......... show active sessions and preview panes
+	ALT+<dir>........ move cursor to another pane with direction
+	SHFT+<left/right> cycle through sessions
+
+[NeoVim]
+*NORMAL*
+-modes
+	i................ INSERT mode
+	;/:.............. COMMAND mode
+	v................ VISUAL mode
+	CTRL+v........... V-BLOCK mode
+	SHFT+v........... V-LINE mode
+
+-movements
+	h................ move cursor left
+	j................ move cursor down
+	k................ move cursor up
+	l................ move cursor right
+	<#>h/j/k/l....... move cursor to direction # times
+	gg............... move cursor to first line
+	SHFT+g........... move cursor to last line
+	<#>SHFT+g........ move cursor to line #
+	w................ move cursor to the beggining of next word
+	e................ move cursor to the end of next word
+	b................ move cursor back to the beggining of previous word
+	SHFT+[........... move cursor paragraph down
+	SHFT+]........... move cursor paragraph up
+	CTRL+d........... scroll half page down
+	CTRL+u........... scroll half page up
+
+-actions
+	y................ yank/copy
+	yw............... yank/copy from cursor
+	yiw.............. yank/copy word on cursor
+	yaw.............. yank/copy word and space on cursor
+	yi<spChar>....... yank/copy all inside special character
+	ya<spChar>....... yank/copy all including special character
+	yy............... yank/copy entire line
+	p................ dump/paste
+	a................ append
+	SHFT+a........... appends to the end of line
+	o................ appends to the next empty line
+	SHFT+o........... appends to the previous empty line
+	dw............... deletes from cursor
+	de............... deletes from cursor leaving a space
+	db............... deletes from cursor backward
+	dd............... deletes the entire line
+	ddp.............. swap current line and below
+	d,SHFT+4......... delete all from cursor to the end of line
+	d,0.............. delete all from cursor to the beggining line
+	cw............... deletes from cursor and append
+	ce............... deletes from cursor leaving a space and append
+	cb............... deletes from cursor backward and append
+	cc............... deletes entire line and append
+	c,SHFT+4......... deletes all from cursor to the end of line and append
+	c,0.............. deletes all from cursor to the beggining of line and append
+	viw.............. selects word on cursor
+	vaw.............. selects word and space on cursor
+	vi<spChar>....... selects all inside special character
+	va<spChar>....... selects all including special character
+	diw.............. deletes word on cursor
+	daw.............. deletes word and space on cursor
+	di<spChar>....... deletes all inside special character
+	da<spChar>....... deletes all including secial character
+	ciw.............. deletes word on cursor and append
+	caw.............. deletes word and space on cursor and append
+	ci<spChar>....... deletes all inside special character
+	ca<spChar>....... deletes all including special character
+	zz............... centers line on cursor
+	gc............... comments selected lines
+	SHFT+zz.......... hides all buffer
+	q<key>........... enters MACRO mode and save actions to the key
+	
+-search
+	SHFT+8........... searches word on cursor
+	/<word>.......... searches word
+	n................ next result
+	p................ previous result
+	:%s/<word>/<new>. replace all word with new 
+	
+*VISUAL*
+	u................ lower case selected
+	SHFT+u........... upper case selected
+
+*COMMAND*
+	ESC.............. exit command mode
+	;/:w................ write changes
+	;/:q................ quit vim/nvim
+	;/:wq............... write changes and quit vim/mvim
+	;/:q!............... force quit vim/nvim without writing changes

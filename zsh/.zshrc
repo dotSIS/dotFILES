@@ -266,6 +266,7 @@ alias xls='/home/zhy7ne/./.xuckless'
 alias xld='/home/zhy7ne/./.xuckless-default'
 
 # program aliases
+alias tm='tmux'
 alias nv='/home/zhy7ne/./.nvim'
 alias vi='vim'
 
