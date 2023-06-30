@@ -273,6 +273,15 @@ alias tm='tmux'
 alias nv='/home/zhy7ne/.scripts/./.nvim'
 alias vi='vim'
 
+# tmuxifier aliases
+alias tls='tmux ls'
+alias tide='tmuxifier load-session IDE'
+alias tdts='tmuxifier load-session dotSIS'
+alias tdtf='tmuxifier load-session dotFILES'
+alias txls='tmuxifier load-session xuckless-tools'
+alias tosa='tmuxifier load-session MagkahiOSA'
+alias tpro='tmuxifier load-session Prodbs'
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh

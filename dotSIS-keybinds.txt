@@ -27,6 +27,7 @@ dotSIS keybinds:
 	leader+w......... show active sessions and preview panes
 	ALT+<dir>........ move cursor to another pane with direction
 	SHFT+<left/right> cycle through sessions
+	SHFT+ALT+<h/l>... cycle through sessions
 
 [NeoVim]
 *NORMAL*
