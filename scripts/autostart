@@ -3,8 +3,8 @@
 # runs when log unto dwm
 
 # runs xuckless
-#/home/zhy7ne/.xuckless &
-/home/zhy7ne/.xuckless-default &
+#/home/zhy7ne/.scripts/.xuckless &
+/home/zhy7ne/.scripts/.xuckless-default &
 
 # copies log background as hidden in home direcory for reset background
 #cp /usr/share/wallpapers/bb.jpg /home/zhy7ne/.xuckless-bg.jpg &

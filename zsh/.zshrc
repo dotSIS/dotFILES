@@ -252,22 +252,22 @@ alias cddf='cd /home/zhy7ne/Projects/dotFILES'
 # git aliases
 alias gpl='git pull'
 alias gps='git push'
-alias dps='/home/zhy7ne/./.dot.sh df ps'
-alias dpl='/home/zhy7ne/./.dot.sh df pl'
-alias xps='/home/zhy7ne/./.dot.sh xt ps'
-alias xpl='/home/zhy7ne/./.dot.sh xt pl'
-alias pps='/home/zhy7ne/./.psp.sh l ps'
-alias ppl='/home/zhy7ne/./.psp.sh l pl'
-alias tps='/home/zhy7ne/./.ter.sh l ps'
-alias tpl='/home/zhy7ne/./.ter.sh l pl'
+alias dps='/home/zhy7ne/.scripts/./.dot.sh df ps'
+alias dpl='/home/zhy7ne/.scripts/./.dot.sh df pl'
+alias xps='/home/zhy7ne/.scripts/./.dot.sh xt ps'
+alias xpl='/home/zhy7ne/.scripts/./.dot.sh xt pl'
+alias pps='/home/zhy7ne/.scripts/./.psp.sh l ps'
+alias ppl='/home/zhy7ne/.scripts/./.psp.sh l pl'
+alias tps='/home/zhy7ne/.scripts/./.ter.sh l ps'
+alias tpl='/home/zhy7ne/.scripts/./.ter.sh l pl'
 
 # xuckless aliases
-alias xls='/home/zhy7ne/./.xuckless'
-alias xld='/home/zhy7ne/./.xuckless-default'
+alias xls='/home/zhy7ne/.scripts/./.xuckless'
+alias xld='/home/zhy7ne/.scripts/./.xuckless-default'
 
 # program aliases
 alias tm='tmux'
-alias nv='/home/zhy7ne/./.nvim'
+alias nv='/home/zhy7ne/.scripts/./.nvim'
 alias vi='vim'
 
 # enable auto-suggestions based on the history
