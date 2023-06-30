@@ -9,7 +9,7 @@ dotSIS keybinds:
 	tmux ls.......... list active sessions
 	
 -inside_actions
-	CTRL+space....... leader
+	ALT+space........ leader
 	leader+r......... source tmux
 	leader+SHFT+i.... install plugins
 	leader+c......... new session
@@ -18,7 +18,7 @@ dotSIS keybinds:
 	leader+SHFT+[.... copy mode
 	leader+[......... split pane horizon
 	leader+]......... split pane vertical
-	leader+<h/j/k/l>. move cursor to another pane with direction
+	ALT+<h/j/k/l>.... move cursor to another pane with direction
 	leader+<dir>..... move cursor to another pane with direction
 	leader+q<#>...... show and swtich to pane #
 	leader+z......... toogle pane to full/window
@@ -26,8 +26,7 @@ dotSIS keybinds:
 	leader+s......... show active sessions
 	leader+w......... show active sessions and preview panes
 	ALT+<dir>........ move cursor to another pane with direction
-	SHFT+<left/right> cycle through sessions
-	SHFT+ALT+<h/l>... cycle through sessions
+	SHFT+ALT+<h/l>... cycle through windows
 
 [NeoVim]
 *NORMAL*
