@@ -10,13 +10,14 @@ dotSIS keybinds:
 	
 -inside_actions
 	CTRL+space....... leader
+	leader+r......... source tmux
 	leader+SHFT+i.... install plugins
 	leader+c......... new session
 	leader+SHFT+7.... kill session
 	leader+<#>....... switch to session #
 	leader+SHFT+[.... copy mode
-	leader+SHFT+5.... split pane horizon
-	leader+SHFT+'.... split pane vertical
+	leader+[......... split pane horizon
+	leader+]......... split pane vertical
 	leader+<h/j/k/l>. move cursor to another pane with direction
 	leader+<dir>..... move cursor to another pane with direction
 	leader+q<#>...... show and swtich to pane #
