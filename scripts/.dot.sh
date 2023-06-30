@@ -41,7 +41,7 @@ if [ $1 = "df" ]; then
 		cp ./scripts/.psp.sh /home/zhy7ne/.scripts/
 		cp ./scripts/.ter.sh /home/zhy7ne/.scripts/
         cp ./scripts/.autocommit /home/zhy7ne/.scripts/
-        cp ./scripts/.nvim /home/zhy7ne/.nvim-save.scripts
+        cp ./scripts/.nvim /home/zhy7ne/.scripts/.nvim-save
 	else
 		echo "Error #1 occured!"
 	fi

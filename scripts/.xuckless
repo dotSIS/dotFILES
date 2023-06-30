@@ -11,7 +11,7 @@ wal -c
 wal -n -q -i $bb
 
 # convert wallpaper into bg file
-cp $bb /home/zhy7ne/.xuckless-bg.jpg
+cp $bb /home/zhy7ne/.scripts/.xuckless-bg.jpg
 
 # apply colorscheme to bar
 xdotool key super+F5
