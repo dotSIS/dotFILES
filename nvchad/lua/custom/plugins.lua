@@ -3,6 +3,22 @@ local overrides = require("custom.configs.overrides")
 ---@type NvPluginSpec[]
 local plugins = {
 
+  -- ChatGPT
+  {
+    "jackMort/ChatGPT.nvim",
+    event = "VeryLazy",
+    dependencies = {
+        "MunifTanjim/nui.nvim",
+        "nvim-lua/plenary.nvim",
+        "nvim-telescope/telescope.nvim"
+    },
+    config = function()
+        require("chatgpt").setup({
+            api_key_cmd = "cat /home/zhy7ne/Configs/chatgpt.nvim",
+        })
+    end,
+  },
+
   -- vim-tmux-navigator
 
   {
@@ -19,9 +35,6 @@ local plugins = {
       {
         "jose-elias-alvarez/null-ls.nvim",
         ft = {"python"},
-        -- opts = function()
-        --     return require "custom.configs.null-ls"
-        -- end,
         config = function()
           require "custom.configs.null-ls"
         end,

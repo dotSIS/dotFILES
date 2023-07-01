@@ -8,7 +8,7 @@ local b = null_ls.builtins
 
 local sources = {
 
-  -- black, mypy and ruff
+  -- mypy and ruff
   b.diagnostics.mypy,
   b.diagnostics.ruff,
 
