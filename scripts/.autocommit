@@ -12,7 +12,7 @@ do
     ts=$(date +%s)
     echo "$ts" > $project_dir/.auto.txt
     git -C $project_dir add .
-    git -C $project_dir commit -m "linux commit"
+    git -C $project_dir commit -m "dotfiles commit"
     sleep 2
 done
 git -C $project_dir push
