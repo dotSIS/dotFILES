@@ -20,14 +20,12 @@ local plugins = {
   },
 
   -- vim-tmux-navigator
-
   {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
 
   -- Override plugin definition options
-
   {
     "neovim/nvim-lspconfig",
     dependencies = {
