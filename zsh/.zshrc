@@ -270,7 +270,7 @@ alias xld='/home/zhy7ne/.scripts/./.xuckless-default'
 
 # program aliases
 alias tm='tmux'
-alias nv='/home/zhy7ne/.scripts/./.nvim'
+alias nv='nvim'
 alias vi='vim'
 alias xta='sudo /opt/lampp/xampp start'
 alias xto='sudo /opt/lampp/xampp stop'
