@@ -9,6 +9,9 @@
 # copies log background as hidden in home direcory for reset background
 #cp /usr/share/wallpapers/bb.jpg /home/zhy7ne/.xuckless-bg.jpg &
 
+# run lxpolkit to manage authorizations on dwm
+lxpolkit &
+
 # run picom compositor in bg
 picom &
 
