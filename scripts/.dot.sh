@@ -9,6 +9,7 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.config/rofi/config.rasi ./rofi/
         cp -r /home/zhy7ne/.config/nvim/* ./nvchad/
         cp /home/zhy7ne/.config/tmux/tmux.conf ./tmux/
+        cp /home/zhy7ne/.config/tmux/plugins/tmuxifier/layouts/* ./tmuxifier/
 		cp /home/zhy7ne/.vimrc ./vim/
 		#cp /home/zhy7ne/.config/zentile/config.toml ./zentile/
 		cp /home/zhy7ne/.zshrc ./zsh/
@@ -30,7 +31,8 @@ if [ $1 = "df" ]; then
 		cp ./kitty/kitty.conf /home/zhy7ne/.config/kitty/
 		cp ./rofi/config.rasi /home/zhy7ne/.config/rofi/
         cp -r ./nvchad/* /home/zhy7ne/.config/nvim/
-        cp ./tmux/tmux.conf /home/zhy7ne/.config/tmux/
+        cp ./tmux/tmux.conf /home/zhy7ne/.config/tmux/
+        cp ./tmuxifier/* /home/zhy7ne/.config/tmux/plugins/tmuxifier/layouts/
 		cp ./vim/.vimrc /home/zhy7ne/
 		#cp ./zentile/config.toml /home/zhy7ne/.config/zentile/
 		cp ./zsh/.zshrc /home/zhy7ne/
