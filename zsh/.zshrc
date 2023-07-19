@@ -274,8 +274,6 @@ alias nv='nvim'
 alias vi='vim'
 alias xta='sudo /opt/lampp/xampp start'
 alias xto='sudo /opt/lampp/xampp stop'
-alias ska='screenkey &'
-alias sko='pkill screenkey'
 
 # tmuxifier aliases
 alias tls='tmux ls'
