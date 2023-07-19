@@ -31,7 +31,7 @@ if [ $1 = "df" ]; then
 		cp ./kitty/kitty.conf /home/zhy7ne/.config/kitty/
 		cp ./rofi/config.rasi /home/zhy7ne/.config/rofi/
         cp -r ./nvchad/* /home/zhy7ne/.config/nvim/
-        cp ./tmux/tmux.conf /home/zhy7ne/.config/tmux/
+        cp ./tmux/tmux.conf /home/zhy7ne/.config/tmux/
         cp ./tmuxifier/* /home/zhy7ne/.config/tmux/plugins/tmuxifier/layouts/
 		cp ./vim/.vimrc /home/zhy7ne/
 		#cp ./zentile/config.toml /home/zhy7ne/.config/zentile/
