@@ -17,7 +17,7 @@
 ## Tools used:
 Click the links for the instructions on how to install each of the tools on your machine.
 - Terminal:     [`kitty`](https://github.com/kovidgoyal/kitty)
-- Multiplexer:  [`tmux`](https://github.com/tmux/tmux), [`tmuxifier`](https://github.com/jimeh/tmuxifier)
+- Multiplexer:  [`tmux`](https://github.com/tmux/tmux) + [`tmuxifier`](https://github.com/jimeh/tmuxifier)
 - IDE:          [`nvchad (neovim)`](https://github.com/NvChad/NvChad)
 - Launcher:     [`rofi`](https://github.com/davatorium/rofi)
 - WM:           [`xuckless-tools`](https://github.com/dotSIS/xuckless-tools)
