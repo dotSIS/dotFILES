@@ -21,6 +21,7 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.scripts/.ter.sh ./scripts/
         cp /home/zhy7ne/.scripts/.autocommit ./scripts/
         cp /home/zhy7ne/.scripts/.nvim ./scripts/
+        cp /home/zhy7ne/.scripts/.killer.sh ./scripts/
 		git add .
 		git commit -m "dotfiles commit"
 		git push
@@ -44,6 +45,7 @@ if [ $1 = "df" ]; then
 		cp ./scripts/.ter.sh /home/zhy7ne/.scripts/
         cp ./scripts/.autocommit /home/zhy7ne/.scripts/
         cp ./scripts/.nvim /home/zhy7ne/.scripts/.nvim-save
+        cp ./scripts/.killer.sh /home/zhy7ne/.scripts/
 	else
 		echo "Error #1 occured!"
 	fi
