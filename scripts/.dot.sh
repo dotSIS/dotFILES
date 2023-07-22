@@ -6,7 +6,7 @@ if [ $1 = "df" ]; then
         cp /home/zhy7ne/Downloads/dotSIS-keybinds.txt ./
         cp /home/zhy7ne/.config/picom/picom.conf ./picom/
 		cp /home/zhy7ne/.config/kitty/kitty.conf ./kitty/
-		cp /home/zhy7ne/.config/rofi/config.rasi ./rofi/
+		cp /home/zhy7ne/.config/rofi/* ./rofi/
         cp -r /home/zhy7ne/.config/nvim/* ./nvchad/
         cp /home/zhy7ne/.config/tmux/tmux.conf ./tmux/
         cp /home/zhy7ne/.config/tmux/plugins/tmuxifier/layouts/* ./tmuxifier/
@@ -31,7 +31,7 @@ if [ $1 = "df" ]; then
         cp ./dotSIS-keybinds.txt /home/zhy7ne/Downloads/
         cp ./picom/picom.conf /home/zhy7ne/.config/picom/
 		cp ./kitty/kitty.conf /home/zhy7ne/.config/kitty/
-		cp ./rofi/config.rasi /home/zhy7ne/.config/rofi/
+		cp ./rofi/* /home/zhy7ne/.config/rofi/
         cp -r ./nvchad/* /home/zhy7ne/.config/nvim/
         cp ./tmux/tmux.conf /home/zhy7ne/.config/tmux/
         cp ./tmuxifier/* /home/zhy7ne/.config/tmux/plugins/tmuxifier/layouts/
