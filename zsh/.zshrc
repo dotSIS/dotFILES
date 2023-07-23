@@ -267,6 +267,8 @@ alias tpl='/home/zhy7ne/.scripts/./.ter.sh l pl'
 # xuckless aliases
 alias xls='/home/zhy7ne/.scripts/./.xuckless'
 alias xld='/home/zhy7ne/.scripts/./.xuckless-default'
+alias cls='/home/zhy7ne/.scripts/./.xuckless-chad'
+alias cld='/home/zhy7ne/.scripts/./.xuckless-chad-default'
 
 # program aliases
 alias tm='tmux'
