@@ -15,6 +15,8 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.zshrc ./zsh/
 		cp /home/zhy7ne/.scripts/.xuckless ./scripts/
 		cp /home/zhy7ne/.scripts/.xuckless-default ./scripts/
+		cp /home/zhy7ne/.scripts/.xuckless-chad ./scripts/
+		cp /home/zhy7ne/.scripts/.xuckless-chad-default ./scripts/
 		cp /home/zhy7ne/.dwm/autostart ./scripts/
 		cp /home/zhy7ne/.scripts/.dot.sh ./scripts/
 		cp /home/zhy7ne/.scripts/.psp.sh ./scripts/
@@ -40,6 +42,8 @@ if [ $1 = "df" ]; then
 		cp ./zsh/.zshrc /home/zhy7ne/
 		cp ./scripts/.xuckless /home/zhy7ne/.scripts/
 		cp ./scripts/.xuckless-default /home/zhy7ne/.scripts/
+		cp ./scripts/.xuckless-chad /home/zhy7ne/.scripts/
+		cp ./scripts/.xuckless-chad-default /home/zhy7ne/.scripts/
 		cp ./scripts/autostart /home/zhy7ne/.dwm/
 		cp ./scripts/.dot.sh /home/zhy7ne/.scripts/
 		cp ./scripts/.psp.sh /home/zhy7ne/.scripts/
@@ -55,12 +59,14 @@ elif [ $1 = "xt" ]; then
 	cd /home/zhy7ne/Projects/dotFILES/xuckless-tools
 	if [ $2 = "ps" ]; then
 		cp -r /home/zhy7ne/Configs/xuckless-tools/* ./
+        cp -r /home/zhy7ne/.config/eww/* ./chadwm/
 		git add .
 		git commit -m "xuckless commit"
 		git push
 	elif [ $2 = "pl" ]; then
 		cd /home/zhy7ne/Configs/xuckless-tools-save
 		git pull
+        cp -r ./chadwm/eww/* /home/zhy7ne/.config/eww/
 	else
 		echo "Error #2 occured!"
 	fi

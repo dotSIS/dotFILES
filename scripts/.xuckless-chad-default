@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+# this script will copy login wallpaper to home directory
+# and apply its colorscheme to the system
+
+# copy default wallpaper to home
+cp /usr/share/wallpapers/bb.jpg /home/zhy7ne/.scripts/.xuckless-bg.jpg
+
+# put home wallpaper on a variable
+bb=$(find /home/zhy7ne/.scripts/.xuckless-bg.jpg)
+
+# set fetched wallpaper
+xwallpaper --zoom $bb
+
+# pywal clear cache and set colorscheme
+wal -c
+wal -n -q -i $bb
