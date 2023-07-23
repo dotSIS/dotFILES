@@ -31,3 +31,5 @@ Click the links for the instructions on how to install each of the tools on your
     <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-dwm.gif">
 - ### Tmux + NvChad IDE
     <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-tmux+nvchad.gif">
+- ### ChadWM + NvChad IDE
+    <img src="https://raw.githubusercontent.com/dotSIS/dotFILES/main/media/rice-chadwm+nvchad.gif">
