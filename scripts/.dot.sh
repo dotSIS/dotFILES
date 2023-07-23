@@ -60,8 +60,6 @@ elif [ $1 = "xt" ]; then
 	if [ $2 = "ps" ]; then
 		cp -r /home/zhy7ne/Configs/xuckless-tools/* ./
         cp -r /home/zhy7ne/.config/eww/* ./chadwm/
-        cp /usr/share/xsessions/dwm.desktop ./
-        cp /usr/share/xsessions/chadwm.desktop ./
 		git add .
 		git commit -m "xuckless commit"
 		git push
