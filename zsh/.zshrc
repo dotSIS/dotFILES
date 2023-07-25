@@ -251,6 +251,14 @@ alias l='ls -CF'
 # cd aliases
 alias cdxt='cd /home/zhy7ne/Configs/xuckless-tools'
 alias cddf='cd /home/zhy7ne/Projects/dotFILES'
+alias cdww='cd /opt/lampp/htdocs'
+
+# install aliases
+alias auto='sudo apt autoremove; sudo apt autoclean'
+alias ains='sudo apt install'
+alias auns='sudo apt remove'
+alias pins='sudo pip install'
+alias puns='sudo pip uninstall'
 
 # git aliases
 alias gpl='git pull'
