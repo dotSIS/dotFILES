@@ -94,6 +94,7 @@ dotSIS keybinds:
 	ca<spChar>....... deletes all including special character
 	zz............... centers line on cursor
 	gc............... comments selected lines
+    </>.............. indent/unindent a block of code
 	g,CTRL+a......... increment highlighted texts
 	SHFT+zz.......... hides all buffer
 	q<key>........... enters MACRO mode and save actions to the key
