@@ -18,14 +18,13 @@ dotSIS keybinds:
 	leader+SHFT+[.... copy mode
 	leader+[......... split pane horizon
 	leader+]......... split pane vertical
-	ALT+<h/j/k/l>.... move cursor to another pane with direction
-	leader+<dir>..... move cursor to another pane with direction
+	ALT+<j/k>........ move cursor up/down to another pane
+	CTRL+<h/j/k/l>... move cursor to another pane with direction
 	leader+q<#>...... show and swtich to pane #
 	leader+z......... toogle pane to full/window
 	:new............. launch new session
 	leader+s......... show active sessions
 	leader+w......... show active sessions and preview panes
-	ALT+<dir>........ move cursor to another pane with direction
 	SHFT+ALT+<h/l>... cycle through windows
 
 [NeoVim]
