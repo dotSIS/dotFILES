@@ -271,6 +271,8 @@ alias pps='/home/zhy7ne/.scripts/./.psp.sh l ps'
 alias ppl='/home/zhy7ne/.scripts/./.psp.sh l pl'
 alias tps='/home/zhy7ne/.scripts/./.ter.sh l ps'
 alias tpl='/home/zhy7ne/.scripts/./.ter.sh l pl'
+alias zps='/home/zhy7ne/.scripts/./.games.sh l ps'
+alias zpl='/home/zhy7ne/.scripts/./.games.sh l pl'
 
 # xuckless aliases
 alias xls='/home/zhy7ne/.scripts/./.xuckless'
