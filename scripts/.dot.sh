@@ -3,7 +3,6 @@
 if [ $1 = "df" ]; then
 	cd /home/zhy7ne/Projects/dotFILES
 	if [ $2 = "ps" ]; then
-        cp /home/zhy7ne/Downloads/dotSIS-keybinds.txt ./
         cp /home/zhy7ne/.config/picom/picom.conf ./picom/
 		cp /home/zhy7ne/.config/kitty/kitty.conf ./kitty/
 		cp /home/zhy7ne/.config/rofi/* ./rofi/
@@ -30,7 +29,6 @@ if [ $1 = "df" ]; then
 		git push
 	elif [ $2 = "pl" ]; then
 		git pull
-        cp ./dotSIS-keybinds.txt /home/zhy7ne/Downloads/
         cp ./picom/picom.conf /home/zhy7ne/.config/picom/
 		cp ./kitty/kitty.conf /home/zhy7ne/.config/kitty/
 		cp ./rofi/* /home/zhy7ne/.config/rofi/
