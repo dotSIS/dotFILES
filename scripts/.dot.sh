@@ -18,6 +18,7 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.scripts/.xuckless-chad-default ./scripts/
 		cp /home/zhy7ne/.dwm/autostart ./scripts/
 		cp /home/zhy7ne/.scripts/.dot.sh ./scripts/
+		cp /home/zhy7ne/.scripts/.games.sh ./scripts/
 		cp /home/zhy7ne/.scripts/.psp.sh ./scripts/
 		cp /home/zhy7ne/.scripts/.ter.sh ./scripts/
         cp /home/zhy7ne/.scripts/.autocommit ./scripts/
@@ -44,6 +45,7 @@ if [ $1 = "df" ]; then
 		cp ./scripts/.xuckless-chad-default /home/zhy7ne/.scripts/
 		cp ./scripts/autostart /home/zhy7ne/.dwm/
 		cp ./scripts/.dot.sh /home/zhy7ne/.scripts/
+		cp ./scripts/.games.sh /home/zhy7ne/.scripts/
 		cp ./scripts/.psp.sh /home/zhy7ne/.scripts/
 		cp ./scripts/.ter.sh /home/zhy7ne/.scripts/
         cp ./scripts/.autocommit /home/zhy7ne/.scripts/
