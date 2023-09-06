@@ -284,6 +284,7 @@ alias cld='/home/zhy7ne/.scripts/./.xuckless-chad-default'
 alias tm='tmux'
 alias nv='nvim'
 alias vi='vim'
+alias se='sudoedit'
 alias xta='sudo /opt/lampp/xampp start'
 alias xto='sudo /opt/lampp/xampp stop'
 alias ska='screenkey &'
@@ -415,6 +416,8 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+
+export EDITOR='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
