@@ -259,6 +259,7 @@ alias ains='sudo apt install'
 alias auns='sudo apt remove'
 alias pins='sudo pip install'
 alias puns='sudo pip uninstall'
+alias dins='sudo dpkg -i'
 
 # git aliases
 alias gpl='git pull'
