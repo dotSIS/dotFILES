@@ -288,6 +288,7 @@ alias vi='vim'
 alias se='sudoedit'
 alias xta='sudo /opt/lampp/xampp start'
 alias xto='sudo /opt/lampp/xampp stop'
+alias ngr='sudo nginx -t && sudo nginx -s reload && sudo systemctl restart nginx.service; sudo service nginx restart'
 alias ska='screenkey &'
 alias sko='pkill screenkey'
 
