@@ -286,6 +286,7 @@ alias tm='tmux'
 alias nv='nvim'
 alias vi='vim'
 alias se='sudoedit'
+alias snv='sudo nvim'
 alias xta='sudo /opt/lampp/xampp start'
 alias xto='sudo /opt/lampp/xampp stop'
 alias nga='sudo nginx -t && sudo nginx -s reload && sudo systemctl start nginx.service; sudo service nginx start'
@@ -304,6 +305,14 @@ alias tdtf='tmuxifier load-session dotFILES'
 alias txls='tmuxifier load-session xuckless-tools'
 alias tosa='tmuxifier load-session MagkahiOSA'
 alias tpro='tmuxifier load-session Prodbs'
+
+# ssh aws instances
+alias ssd1='ssh -i "~/.ssh/dotsis-aws-deb1.pem" admin@100.24.56.230'
+alias ssd2='ssh -i "~/.ssh/dotsis-aws-deb2.pem" admin@107.22.90.195'
+alias ssd3='ssh -i "~/.ssh/dotsis-aws-deb3.pem" admin@54.166.134.105'
+alias ssu1='ssh -i "~/.ssh/dotsis-aws-ubu1.pem" ubuntu@54.152.195.99'
+alias ssu2='ssh -i "~/.ssh/dotsis-aws-ubu2.pem" ubuntu@100.24.17.131'
+alias ssu3='ssh -i "~/.ssh/dotsis-aws-ubu3.pem" ubuntu@54.166.188.66'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
