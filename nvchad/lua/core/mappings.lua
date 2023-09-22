@@ -22,16 +22,26 @@ M.general = {
     ["<C-l>"] = { "<C-w>l", "Window right" },
     ["<C-j>"] = { "<C-w>j", "Window down" },
     ["<C-k>"] = { "<C-w>k", "Window up" },
-
     -- save
     ["<C-s>"] = { "<cmd> w <CR>", "Save file" },
-
     -- Copy all
     ["<C-c>"] = { "<cmd> %y+ <CR>", "Copy whole file" },
-
     -- line numbers
     ["<leader>n"] = { "<cmd> set nu! <CR>", "Toggle line number" },
     ["<leader>rn"] = { "<cmd> set rnu! <CR>", "Toggle relative number" },
+    -- search whole file for word on cursor and replace
+    ["<leader>cs"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]] },
+    -- adds chmod +x on current file
+    ["<leader>cx"] = { "<cmd>!chmod +x %<CR>", { silent = true } },
+    -- half page jumping keeps cursor on middle
+    ["<C-d>"] = { "<C-d>zz" },
+    ["<C-u>"] = { "<C-u>zz" },
+    -- keeps cursor on middle while searching
+    ["n"] = { "nzzzv" },
+    ["N"] = { "Nzzzv" },
+    -- dynamic yanking
+    ["<leader>y"] = { "\"+y" },
+    ["<leader>Y"] = { "\"+Y" },
 
     -- Allow moving the cursor through wrapped lines with j, k, <Up> and <Down>
     -- http://www.reddit.com/r/vim/comments/2k4cbr/problem_with_gj_and_gk/
@@ -54,6 +64,9 @@ M.general = {
   v = {
     ["<Up>"] = { 'v:count || mode(1)[0:1] == "no" ? "k" : "gk"', "Move up", opts = { expr = true } },
     ["<Down>"] = { 'v:count || mode(1)[0:1] == "no" ? "j" : "gj"', "Move down", opts = { expr = true } },
+    ["<C-J>"] = { ":m '>+1<CR>gv=gv", "Move highlighted line down" },
+    ["<C-K>"] = { ":m '<-2<CR>gv=gv", "Move highlighted line up" },
+    ["<leader>y"] = { "\"+y" },
   },
 
   x = {

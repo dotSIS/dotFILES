@@ -28,6 +28,7 @@ dotSIS keybinds:
 	SHFT+ALT+<h/l>... cycle through windows
 
 [NeoVim]
+    space............ leader
 *NORMAL*
 -modes
 	i................ INSERT mode
@@ -58,6 +59,7 @@ dotSIS keybinds:
 	yw............... yank/copy from cursor
 	yiw.............. yank/copy word on cursor
 	yaw.............. yank/copy word and space on cursor
+	yap.............. yank/copy paragraph and space on cursor
 	yi<spChar>....... yank/copy all inside special character
 	ya<spChar>....... yank/copy all including special character
 	yy............... yank/copy entire line
@@ -104,10 +106,13 @@ dotSIS keybinds:
 	n................ next result
 	p................ previous result
 	:%s/<word>/<new>. replace all word with new 
+    leader+cs........ search whole file for word on cursor and replace
 	
 *VISUAL*
 	u................ lower case selected
 	SHFT+u........... upper case selected
+    CTRL+j........... move highlighted line down
+    CTRL+k........... move highlighted line up
 
 *COMMAND*
 	ESC................. exit command mode
