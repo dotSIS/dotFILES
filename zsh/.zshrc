@@ -307,6 +307,8 @@ alias tosa='tmuxifier load-session MagkahiOSA'
 alias tpro='tmuxifier load-session Prodbs'
 
 # ssh aws instances
+alias ssta='service ssh start'
+alias ssto='service ssh stop'
 alias ssd1='ssh -i "~/.ssh/dotsis-aws-deb1.pem" admin@100.24.56.230'
 alias ssd2='ssh -i "~/.ssh/dotsis-aws-deb2.pem" admin@107.22.90.195'
 alias ssd3='ssh -i "~/.ssh/dotsis-aws-deb3.pem" admin@54.166.134.105'
