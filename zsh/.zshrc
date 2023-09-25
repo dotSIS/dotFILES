@@ -298,6 +298,7 @@ alias sko='pkill screenkey'
 # tmuxifier aliases
 alias tls='tmux ls'
 alias tat='tmux attach'
+alias taws='tmuxifier load-session AWS'
 alias tide='tmuxifier load-session IDE'
 alias tric='tmuxifier load-session RICE'
 alias tdts='tmuxifier load-session dotSIS'
@@ -306,15 +307,9 @@ alias txls='tmuxifier load-session xuckless-tools'
 alias tosa='tmuxifier load-session MagkahiOSA'
 alias tpro='tmuxifier load-session Prodbs'
 
-# ssh aws instances
+# ssh
 alias ssta='service ssh start'
 alias ssto='service ssh stop'
-alias ssd1='ssh -i "~/.ssh/dotsis-aws-deb1.pem" admin@100.24.56.230'
-alias ssd2='ssh -i "~/.ssh/dotsis-aws-deb2.pem" admin@107.22.90.195'
-alias ssd3='ssh -i "~/.ssh/dotsis-aws-deb3.pem" admin@54.166.134.105'
-alias ssu1='ssh -i "~/.ssh/dotsis-aws-ubu1.pem" ubuntu@54.152.195.99'
-alias ssu2='ssh -i "~/.ssh/dotsis-aws-ubu2.pem" ubuntu@100.24.17.131'
-alias ssu3='ssh -i "~/.ssh/dotsis-aws-ubu3.pem" ubuntu@54.166.188.66'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
