@@ -294,8 +294,8 @@ alias ngo='sudo nginx -t && sudo nginx -s reload; sudo systemctl stop nginx.serv
 alias ngr='sudo nginx -t && sudo nginx -s reload; sudo systemctl restart nginx.service && sudo service nginx restart; sudo systemctl restart mysql && sudo systemctl restart php8.2-fpm'
 alias ska='screenkey &'
 alias sko='pkill screenkey'
-alias btn='sudo systemctl start bluetooth'
-alias btf='sudo systemctl stop bluetooth'
+alias btn='sudo systemctl enable bluetooth; sudo systemctl start bluetooth'
+alias btf='sudo systemctl disable bluetooth; sudo systemctl stop bluetooth'
 
 # tmuxifier aliases
 alias tls='tmux ls'
