@@ -284,7 +284,6 @@ alias cld='/home/zhy7ne/.scripts/./.xuckless-chad-default'
 # program aliases
 alias tm='tmux'
 alias nv='nvim'
-alias vi='vim'
 alias se='sudoedit'
 alias snv='sudo nvim'
 alias xta='sudo /opt/lampp/xampp start'
@@ -308,6 +307,13 @@ alias tdtf='tmuxifier load-session dotFILES'
 alias txls='tmuxifier load-session xuckless-tools'
 alias tosa='tmuxifier load-session MagkahiOSA'
 alias tpro='tmuxifier load-session Prodbs'
+
+# vagrant aliases
+alias vi='vagrant init'
+alias vu='vagrant up'
+alias vs='vagrant ssh'
+alias vh='vagrant halt'
+alias vd='vagrant destroy'
 
 # ssh
 alias ssta='service ssh start'
