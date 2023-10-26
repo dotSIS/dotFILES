@@ -315,6 +315,13 @@ alias vs='vagrant ssh'
 alias vh='vagrant halt'
 alias vd='vagrant destroy'
 
+# terraform aliases
+alias ti='terraform init'
+alias tv='terraform validate'
+alias tp='terraform plan'
+alias ta='terraform apply'
+alias td='terraform destroy'
+
 # ssh
 alias ssta='service ssh start'
 alias ssto='service ssh stop'
@@ -330,6 +337,7 @@ fi
 if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
+export PATH=$HOME/.tfenv/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH
