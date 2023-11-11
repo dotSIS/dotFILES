@@ -296,6 +296,7 @@ alias ngo='sudo nginx -t && sudo nginx -s reload; sudo systemctl stop nginx.serv
 alias ngr='sudo nginx -t && sudo nginx -s reload; sudo systemctl restart nginx.service && sudo service nginx restart; sudo systemctl restart mysql && sudo systemctl restart php8.2-fpm'
 alias zba='sudo systemctl enable zabbix-server zabbix-agent; sudo systemctl start zabbix-server zabbix-agent'
 alias zbo='sudo systemctl disable zabbix-server zabbix-agent; sudo systemctl stop zabbix-server zabbix-agent'
+alias zbr='sudo systemctl restart zabbux-server zabbix-agent'
 alias ska='screenkey &'
 alias sko='pkill screenkey'
 alias btn='sudo systemctl enable bluetooth; sudo systemctl start bluetooth'
