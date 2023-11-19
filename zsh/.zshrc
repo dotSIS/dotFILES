@@ -320,6 +320,7 @@ alias vu='vagrant up'
 alias vs='vagrant ssh'
 alias vh='vagrant halt'
 alias vd='vagrant destroy'
+alias vg='vagrant global-status'
 
 # terraform aliases
 alias ti='terraform init'
