@@ -135,4 +135,7 @@ dotSIS keybinds:
     a................ create file/dir
     r................ rename file/dir
     d................ delete file/dir
+    CTRL+x........... open file on vertical split
+    CTRL+v........... open file on horizontal split
+    CTRL+w+q......... close split
     leader+cx........ make file(sh) executable
