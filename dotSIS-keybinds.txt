@@ -21,7 +21,7 @@ dotSIS keybinds:
 	ALT+<j/k>........ move cursor up/down to another pane
 	CTRL+<h/j/k/l>... move cursor to another pane with direction
 	leader+q<#>...... show and swtich to pane #
-	leader+z......... toogle pane to full/window
+	leader+z......... toggle pane to full/window
 	:new............. launch new session
 	leader+s......... show active sessions
 	leader+w......... show active sessions and preview panes
@@ -29,6 +29,7 @@ dotSIS keybinds:
 
 [NeoVim]
     space............ leader
+    CTRL+n........... toggle treesitter
 *NORMAL*
 -modes
 	i................ INSERT mode
@@ -55,6 +56,7 @@ dotSIS keybinds:
 	CTRL+u........... scroll half page up
 
 -actions
+    leader+e......... move cursor to treesitter
 	y................ yank/copy
 	yw............... yank/copy from cursor
 	yiw.............. yank/copy word on cursor
@@ -115,8 +117,22 @@ dotSIS keybinds:
     CTRL+k........... move highlighted line up
 
 *COMMAND*
-	ESC................. exit command mode
-	;/:w................ write changes
-	;/:q................ quit vim/nvim
-	;/:wq............... write changes and quit vim/mvim
-	;/:q!............... force quit vim/nvim without writing changes
+	ESC.............. exit command mode
+	;/:w............. write changes
+	;/:q............. quit vim/nvim
+	;/:wq............ write changes and quit vim/mvim
+	;/:q!............ force quit vim/nvim without writing changes
+
+-treesitter
+	h................ move cursor left
+	j................ move cursor down
+	k................ move cursor up
+	l................ move cursor right
+	<#>h/j/k/l....... move cursor to direction # times
+	gg............... move cursor to first file/dir
+	SHFT+g........... move cursor to last file/dir
+    o................ open file/dir
+    a................ create file/dir
+    r................ rename file/dir
+    d................ delete file/dir
+    leader+cx........ make file(sh) executable
