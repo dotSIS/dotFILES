@@ -329,6 +329,15 @@ alias tp='terraform plan'
 alias ta='terraform apply'
 alias td='terraform destroy'
 
+# distrobox aliases
+alias dba='distrobox-assemble'
+alias dbc='distrobox-create'
+alias dbe='distrobox-enter'
+alias dbl='distrobox-list'
+alias dbr='distrobox-rm'
+alias dbs='distrobox-stop'
+alias dbi='distrobox-init'
+
 # ssh
 alias ssta='service ssh start'
 alias ssto='service ssh stop'
