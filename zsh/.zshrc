@@ -301,6 +301,8 @@ alias ska='screenkey &'
 alias sko='pkill screenkey'
 alias btn='sudo systemctl enable bluetooth; sudo systemctl start bluetooth'
 alias btf='sudo systemctl disable bluetooth; sudo systemctl stop bluetooth'
+alias nfo='cp /home/zhy7ne/.config/neofetch/config-o.conf /home/zhy7ne/.config/neofetch/config.conf'
+alias nfp='cp /home/zhy7ne/.config/neofetch/config-p.conf /home/zhy7ne/.config/neofetch/config.conf'
 
 # tmuxifier aliases
 alias tls='tmux ls'
