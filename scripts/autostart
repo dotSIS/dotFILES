@@ -13,7 +13,7 @@
 lxpolkit &
 
 # run picom compositor in bg
-picom &
+# picom &
 
 # run slstatus bar in bg
 slstatus &
