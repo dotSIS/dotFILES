@@ -95,6 +95,12 @@ dotSIS keybinds:
 	caw.............. deletes word and space on cursor and append
 	ci<spChar>....... deletes all inside special character
 	ca<spChar>....... deletes all including special character
+    vip.............. highlight inside paragraph
+    vap.............. highlight outside paragraph
+    dip.............. delete inside paragraph
+    dap.............. delete outside paragraph
+    cip.............. delete inside paragraph and append
+    cap.............. delete outside paragraph and append
 	zz............... centers line on cursor
 	gc............... comments selected lines
     </>.............. indent/unindent a block of code
