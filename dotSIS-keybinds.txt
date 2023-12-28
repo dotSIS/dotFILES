@@ -122,6 +122,7 @@ dotSIS keybinds:
 	SHFT+u........... upper case selected
     CTRL+j........... move highlighted line down
     CTRL+k........... move highlighted line up
+    g+?.............. rot13 highlighted
 
 *COMMAND*
 	ESC.............. exit command mode
