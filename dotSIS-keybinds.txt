@@ -68,6 +68,7 @@ dotSIS keybinds:
 	p................ dump/paste
 	a................ append
 	SHFT+a........... appends to the end of line
+    SHFT+i........... appends to the beggining of line
 	o................ appends to the next empty line
 	SHFT+o........... appends to the previous empty line
 	dw............... deletes from cursor
