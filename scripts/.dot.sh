@@ -13,6 +13,7 @@ if [ $1 = "df" ]; then
 		cp /home/zhy7ne/.vimrc ./vim/
 		#cp /home/zhy7ne/.config/zentile/config.toml ./zentile/
 		cp /home/zhy7ne/.zshrc ./zsh/
+		cp /home/zhy7ne/.config/starship.toml ./starship/
 		cp /home/zhy7ne/.scripts/.xuckless ./scripts/
 		cp /home/zhy7ne/.scripts/.xuckless-default ./scripts/
 		cp /home/zhy7ne/.scripts/.xuckless-chad ./scripts/
@@ -41,6 +42,7 @@ if [ $1 = "df" ]; then
 		cp ./vim/.vimrc /home/zhy7ne/
 		#cp ./zentile/config.toml /home/zhy7ne/.config/zentile/
 		cp ./zsh/.zshrc /home/zhy7ne/
+		cp ./starship/starship.toml /home/zhy7ne/.config/
 		cp ./scripts/.xuckless /home/zhy7ne/.scripts/
 		cp ./scripts/.xuckless-default /home/zhy7ne/.scripts/
 		cp ./scripts/.xuckless-chad /home/zhy7ne/.scripts/

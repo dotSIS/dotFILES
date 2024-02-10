@@ -363,9 +363,6 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH
 
-# temuxifier
-eval "$(tmuxifier init -)"
-
 # pnpm
 export PNPM_HOME="/home/zhy7ne/.local/share/pnpm"
 case ":$PATH:" in
@@ -482,3 +479,7 @@ wal -n -q -i /home/zhy7ne/.scripts/.xuckless-bg.jpg
 # fm6000 -l 20 -zhy7ne -c cyan -os "Debian Z" #| lolcat
 # colorscript random
 pokemon-colorscripts --no-title -r
+# tmuxifier
+eval "$(tmuxifier init -)"
+# starship
+eval "$(starship init zsh)"
