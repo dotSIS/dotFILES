@@ -16,13 +16,13 @@
 
 ## Tools used:
 Click the links for the instructions on how to install each of the tools on your machine.
-- Terminal:     [`kitty`](https://github.com/kovidgoyal/kitty)
+- Terminal:     [`st`](https://st.suckless.org), [`kitty`](https://github.com/kovidgoyal/kitty)
 - Multiplexer:  [`tmux`](https://github.com/tmux/tmux) + [`tmuxifier`](https://github.com/jimeh/tmuxifier)
 - IDE:          [`nvchad (neovim)`](https://github.com/NvChad/NvChad)
-- Launcher:     [`rofi`](https://github.com/davatorium/rofi)
-- WM:           [`xuckless-tools`](https://github.com/dotSIS/xuckless-tools)
+- Launcher:     [`dmenu`](https://tools.suckless.org/dmenu), [`rofi`](https://github.com/davatorium/rofi)
+- WM:           [`dwm`](https://dwm.suckless.org), [`xuckless-tools`](https://github.com/dotSIS/xuckless-tools)
 - WM(old):      [`zentile`](https://github.com/blrsn/zentile)
-- Shell:        [`oh-my-zsh`](https://github.com/ohmyzsh/ohmyzsh)
+- Shell:        [`oh-my-zsh`](https://github.com/ohmyzsh/ohmyzsh) + [`starship`](https://starship.rs)
 
 ## Rices:
 - ### Script for random ricing
